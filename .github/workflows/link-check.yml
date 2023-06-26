@@ -38,7 +38,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         
-      -name: Get script
+      - name: Get script
         run: |
           wget https://raw.githubusercontent.com/xuruidong/markdown-link-checker/main/link_checker.py
 
