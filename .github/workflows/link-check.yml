@@ -9,17 +9,11 @@ on:
   push:
     branches:
       - main
-    paths-ignore:
-      - 'ignore/**'
     paths:
-      - 'inc1'
-      - 'inc2/**'
+      - '**/*.md'
   pull_request:
-    paths-ignore:
-      - 'ignore/**'
     paths:
-      - 'inc1'
-      - 'inc2/**'
+      - '**/*.md'
 
 permissions:
   contents: read
